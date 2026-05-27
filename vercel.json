@@ -1,9 +1,12 @@
 {
   "version": 2,
   "routes": [
+    { "src": "/", "dest": "/api/index.js" },
     { "src": "/blog", "dest": "/api/blog.js" },
     { "src": "/blog/(.*)", "dest": "/api/blog/[slug].js" },
-    { "src": "/", "dest": "/api/index.js" },
+    { "src": "/about", "dest": "/api/about.js" },
+    { "src": "/contact", "dest": "/api/contact.js" },
+    { "src": "/privacy", "dest": "/api/privacy.js" },
     { "src": "/styles/(.*)", "dest": "/public/styles/$1" }
   ]
 }
