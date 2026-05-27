@@ -99,7 +99,7 @@ body.dark-mode .navbar {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #fff;
+    color: #1a202c;
     text-decoration: none;
     transition: opacity 0.3s;
 }
@@ -116,7 +116,7 @@ body.dark-mode .navbar {
 }
 
 .navbar-links a {
-    color: rgba(255, 255, 255, 0.9);
+    color: #2d3748;
     text-decoration: none;
     font-weight: 500;
     font-size: 0.95rem;
@@ -126,8 +126,8 @@ body.dark-mode .navbar {
 }
 
 .navbar-links a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: #fff;
+    background: rgba(102, 126, 234, 0.1);
+    color: #4c51bf;
     transform: translateY(-2px);
 }
 
@@ -158,7 +158,7 @@ body.dark-mode .navbar-links a:hover {
     cursor: pointer;
     transition: all 0.3s;
     font-size: 1.2rem;
-    color: #fff;
+    color: #2d3748;
 }
 
 .theme-toggle-btn:hover {
@@ -228,10 +228,10 @@ body.dark-mode .glass-card {
     font-family: 'Inter', sans-serif;
     font-size: 1.1rem;
     font-weight: 600;
-    color: #fff;
+    color: #2d3748;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 2px solid rgba(102, 126, 234, 0.3);
 }
 
 body.dark-mode .sidebar-card h3 {
@@ -247,7 +247,7 @@ body.dark-mode .sidebar-card h3 {
 }
 
 .sidebar-list a {
-    color: rgba(255, 255, 255, 0.9);
+    color: #2d3748;
     text-decoration: none;
     padding: 0.5rem;
     display: block;
@@ -257,7 +257,8 @@ body.dark-mode .sidebar-card h3 {
 }
 
 .sidebar-list a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(102, 126, 234, 0.1);
+    color: #4c51bf;
     transform: translateX(5px);
 }
 
@@ -300,7 +301,7 @@ h1 {
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
-    color: #fff;
+    color: #1a202c;
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
@@ -309,7 +310,7 @@ h2 {
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     font-weight: 600;
-    color: #fff;
+    color: #2d3748;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -318,7 +319,7 @@ h3 {
     font-family: 'Inter', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
+    color: #2d3748;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
 }
@@ -334,7 +335,7 @@ p {
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 1rem;
-    color: rgba(255, 255, 255, 0.95);
+    color: #2d3748;
 }
 
 body.dark-mode p {
@@ -343,13 +344,13 @@ body.dark-mode p {
 
 /* 链接样式 */
 a {
-    color: #fef08a;
+    color: #4c51bf;
     text-decoration: none;
     transition: all 0.3s;
 }
 
 a:hover {
-    color: #fde047;
+    color: #667eea;
     text-decoration: underline;
 }
 
@@ -369,7 +370,7 @@ ul, ol {
 
 li {
     margin-bottom: 0.5rem;
-    color: rgba(255, 255, 255, 0.95);
+    color: #2d3748;
 }
 
 body.dark-mode li {
@@ -389,11 +390,11 @@ pre {
 code {
     font-family: 'Fira Code', 'Courier New', monospace;
     font-size: 0.9rem;
-    color: #fef08a;
+    color: #4c51bf;
 }
 
 pre code {
-    color: #e2e8f0;
+    color: #2d3748;
 }
 
 body.dark-mode pre {
@@ -402,11 +403,11 @@ body.dark-mode pre {
 
 /* 引用块样式 */
 blockquote {
-    border-left: 4px solid rgba(255, 255, 255, 0.5);
+    border-left: 4px solid #667eea;
     padding-left: 1.5rem;
     margin: 1.5rem 0;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.9);
+    color: #2d3748;
 }
 
 body.dark-mode blockquote {
@@ -431,9 +432,9 @@ th, td {
 }
 
 th {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(102, 126, 234, 0.2);
     font-weight: 600;
-    color: #fff;
+    color: #1a202c;
 }
 
 body.dark-mode table {
@@ -509,22 +510,22 @@ body.dark-mode .article-card:hover {
 }
 
 .article-card h2 a {
-    color: #fff;
+    color: #2d3748;
     text-decoration: none;
 }
 
 .article-card h2 a:hover {
-    color: #fef08a;
+    color: #4c51bf;
 }
 
 .article-meta {
     font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: #718096;
     margin-bottom: 0.5rem;
 }
 
 .article-excerpt {
-    color: rgba(255, 255, 255, 0.9);
+    color: #2d3748;
     line-height: 1.6;
 }
 
@@ -540,11 +541,11 @@ body.dark-mode .article-excerpt {
 footer {
     text-align: center;
     padding: 2rem;
-    color: rgba(255, 255, 255, 0.8);
+    color: #718096;
     font-size: 0.9rem;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-top: 1px solid rgba(102, 126, 234, 0.2);
     margin-top: 2rem;
 }
 
@@ -562,7 +563,7 @@ body.dark-mode footer {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
-    color: #fff;
+    color: #2d3748;
 }
 
 body.dark-mode .form-group label {
@@ -573,10 +574,10 @@ body.dark-mode .form-group label {
 .form-group textarea {
     width: 100%;
     padding: 0.75rem;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(102, 126, 234, 0.3);
     border-radius: 8px;
-    color: #fff;
+    color: #2d3748;
     font-family: inherit;
     font-size: 1rem;
     transition: all 0.3s;
@@ -585,13 +586,13 @@ body.dark-mode .form-group label {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: rgba(255, 255, 255, 0.6);
-    background: rgba(255, 255, 255, 0.15);
+    border-color: #667eea;
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-    color: rgba(255, 255, 255, 0.5);
+    color: #a0aec0;
 }
 
 body.dark-mode .form-group input,
@@ -610,15 +611,15 @@ body.dark-mode .form-group textarea {
 .tag {
     display: inline-block;
     padding: 0.25rem 0.75rem;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(102, 126, 234, 0.15);
     border-radius: 20px;
     font-size: 0.85rem;
-    color: #fff;
+    color: #4c51bf;
     transition: all 0.3s;
 }
 
 .tag:hover {
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(102, 126, 234, 0.25);
     transform: scale(1.05);
 }
 
@@ -634,7 +635,7 @@ body.dark-mode .tag:hover {
 hr {
     border: none;
     height: 1px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(102, 126, 234, 0.3);
     margin: 2rem 0;
 }
 
