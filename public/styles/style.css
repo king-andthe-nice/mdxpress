@@ -21,7 +21,7 @@ html, body {
 
 /* 亮色模式背景 */
 body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e4dfdf 0%, #d2d0d0 100%);
     background-attachment: fixed;
     color: #2d3748;
     transition: all 0.3s ease;
@@ -180,7 +180,7 @@ body.dark-mode .glass-card {
 /* 左侧栏 */
 .sidebar-left {
     position: sticky;
-    top: 100px;
+    top: 50px;
     height: fit-content;
 }
 
@@ -235,7 +235,7 @@ body.dark-mode .sidebar-list a:hover {
 
 /* 主内容区 */
 .main-content {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .content-card {
@@ -256,7 +256,7 @@ body.dark-mode .content-card {
 /* 右侧栏 */
 .sidebar-right {
     position: sticky;
-    top: 100px;
+    top: 50px;
     height: fit-content;
 }
 
