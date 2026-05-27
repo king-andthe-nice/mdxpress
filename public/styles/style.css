@@ -21,7 +21,7 @@ html, body {
 
 /* 亮色模式背景 */
 body {
-    background: linear-gradient(135deg, #e4dfdf 0%, #d2d0d0 100%);
+    background: linear-gradient(135deg, #7ddcca 0%, #6edede 100%);
     background-attachment: fixed;
     color: #2d3748;
     transition: all 0.3s ease;
