@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 指向你的动态站点地图
+Sitemap: https://mdxpress.techpanda.qzz.io/api/sitemap
